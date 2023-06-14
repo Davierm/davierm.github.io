@@ -343,6 +343,20 @@ p.infocena {
   display: none;
 }
 
+.mobile_center {
+  float: left;
+    margin: 3px 21px 21px 0px;
+    display: block;
+    width: 142px;
+    height: 142px;
+    margin-left: auto;
+    
+    background-size: contain;
+    background-image: url(data/davierm_rich.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 @media screen and (max-width: 1042px) {
   .links a {
     display: block;
@@ -361,6 +375,30 @@ p.infocena {
 
 
 @media screen and (max-width: 1042px) {
+  .mobile_center {
+    float: none;
+    margin: 3px 12px 3px 0px;
+    display: block;
+    width: 142px;
+    height: 142px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    background-image: url(data/davierm_rich.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }  
+  h1 {
+    font-weight: 200;
+    font-size: 221%;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    font-family: RobotoMonoThin, Helvetica, Arial;
+  }
+
   .links.responsive {
     position: relative;
     border-top: solid 1px #373635;
