@@ -159,6 +159,10 @@ a:hover.linktwitter {
   color: #1da1f2;
 }
 
+a:hover.linkinstagram {
+  color: #c13584;
+}
+
 a:hover.linkreddit {
   color: #ff4500;
 }
