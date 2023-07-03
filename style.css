@@ -50,6 +50,7 @@ body {
 a {
   text-decoration: none;
   font-family: RobotoMonoThin, Helvetica, Arial;
+  display: inline-block;
 }
 
 a:link {
@@ -359,6 +360,10 @@ p.infocena {
     background-image: url(data/davierm_rich.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+object{
+  pointer-events: none;
 }
 
 @media screen and (max-width: 1042px) {
