@@ -427,8 +427,23 @@ object{
     }
 }
 
+@media only screen and (min-width : 300px) and (max-device-width : 520px){
+    .mobile_center {
+        float: none;
+        margin: 3px 3px 21px 0px;
+        display: block;
+        width: 142px;
+        height: 142px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+        background-image: url(data/davierm_rich.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }  
+}
 
-@media screen and (max-width: 1042px) {
+@media only screen and (min-width : 520px) and (max-width: 1042px) {
     .mobile_center {
         float: none;
         margin: 3px 12px 21px 0px;
