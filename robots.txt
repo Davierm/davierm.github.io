@@ -1,0 +1,3 @@
+# Povoluje procházení webu všem crawlerům:
+User-agent: *
+Disallow:

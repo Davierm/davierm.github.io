@@ -1,429 +1,497 @@
+/* NASTAVENÍ PÍSEM NA WEBU */
 @font-face {
-  font-family: CoreDeco;
-  src: url(data/coredeco.woff);
-  src: url(data/coredeco.ttf);
+    font-family: CoreDeco;
+    src: url(data/coredeco.woff);
+    src: url(data/coredeco.ttf);
 }
 
 @font-face {
-  font-family: Roboto;
-  src: url(data/RobotoMono-Light.ttf);
+    font-family: Roboto;
+    src: url(data/Roboto-Light.ttf);
 }
 
 @font-face {
-  font-family: RobotoThin;
-  src: url(data/Roboto-Thin.ttf);
+    font-family: RobotoThin;
+    src: url(data/Roboto-Thin.ttf);
 }
 
 @font-face {
-  font-family: RobotoMono;
-  src: url(data/RobotoMono-Light.ttf);
+    font-family: RobotoMono;
+    src: url(data/RobotoMono-Light.ttf);
 }
 
 @font-face {
-  font-family: RobotoMonoThin;
-  src: url(data/RobotoMono-ExtraLight.ttf);
+    font-family: RobotoMonoThin;
+    src: url(data/RobotoMono-ExtraLight.ttf);
 }
 
+/* BARVA OZNAČENÍ TEXTU VE FIREFOX/OSTATNÍ */
 ::-moz-selection {
-  /* Code for Firefox */
-  color: rgb(255, 255, 255);
-  background: #D33C3C;
+  /* Firefox */
+    color: rgb(255, 255, 255);
+    background: #D33C3C;
 }
 
 ::selection {
-  color: rgb(255, 255, 255);
-  background: #D33C3C;
+    color: rgb(255, 255, 255);
+    background: #D33C3C;
 }
 
 body {
-  color: #373635;
-  background-color: #434949;
-  font-family: CoreDeco, Helvetica, Arial, sans-serif;
-  width: 80%;
-  margin: 0px auto;
-  position: relative;
-  width: 80%;
-  max-width: 55em;
-  background-image: url('data/background.png');
+    color: #373635;
+    background-color: #434949;
+    font-family: CoreDeco, Helvetica, Arial, sans-serif;
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    width: 80%;
+    max-width: 55em;
+    background-image: url('data/background.png');
 }
 
 a {
-  text-decoration: none;
-  font-family: RobotoMonoThin, Helvetica, Arial;
-  display: inline-block;
+    text-decoration: none;
+    font-family: RobotoMonoThin, Helvetica, Arial;
+    display: inline-block;
 }
 
 a:link {
-  color: #373635
+    color: #373635
 }
 
 a:visited {
-  color: #373635
+    color: #373635
 }
 
 a:active {
-  color: #373635
+    color: #373635
 }
 
 a:hover {
-  color: #D33C3C;
-  text-decoration: none
+    color: #D33C3C;
+    text-decoration: none
 }
 
 a.davierm {
-  font-family: CoreDeco;
+    font-family: CoreDeco;
 }
 
 a:link.menu {
-  color: #353737;
-  font-size: x-large;
-  font-weight: 200;
-  margin-right: 2%;
+    color: #353737;
+    font-size: x-large;
+    font-weight: 200;
+    margin-right: 2%;
 }
 
 a:link.gmail {
-  color: #373635;
-  font-size: x-large;
-  font-weight: 200;
-  margin-right: 2%;
+    color: #373635;
+    font-size: x-large;
+    font-weight: 200;
+    margin-right: 2%;
 }
 
 a:link.whatsapp {
-  color: #373635;
-  font-size: x-large;
-  font-weight: 200;
-  margin-right: 2%;
+    color: #373635;
+    font-size: x-large;
+    font-weight: 200;
+    margin-right: 2%;
 }
 
 a:link.twitter {
-  color: #373635;
-  font-size: x-large;
-  font-weight: 200;
-  margin-right: 2%;
+    color: #373635;
+    font-size: x-large;
+    font-weight: 200;
+    margin-right: 2%;
 }
 
 a:link.telegram {
-  color: #373635;
-  font-size: x-large;
-  font-weight: 200;
-  margin-right: 2%;
+    color: #373635;
+    font-size: x-large;
+    font-weight: 200;
+    margin-right: 2%;
 }
 
-
 a:hover.menu {
-  color: #D33C3C;
-  font-size: x-large;
-  font-weight: 200;
+    color: #D33C3C;
+    font-size: x-large;
+    font-weight: 200;
 }
 
 a:hover.gmail {
-  color: #ea4335;
-  font-size: x-large;
-  font-weight: 200;
+    color: #ea4335;
+    font-size: x-large;
+    font-weight: 200;
 }
 
 a:hover.whatsapp {
-  color: #25d366;
-  font-size: x-large;
-  font-weight: 200;
+    color: #25d366;
+    font-size: x-large;
+    font-weight: 200;
 }
 
 a:hover.telegram {
-  color: #0088cc;
-  font-size: x-large;
-  font-weight: 200;
+    color: #0088cc;
+    font-size: x-large;
+    font-weight: 200;
 }
 
 a:hover.twitter {
-  color: #1da1f2;
-  font-size: x-large;
-  font-weight: 200;
+    color: #1da1f2;
+    font-size: x-large;
+    font-weight: 200;
 }
 
 a:hover.logo {
-  color: #D33C3C;
+    color: #D33C3C;
 }
 
 a:hover.linkgmail {
-  color: #ea4335;
+    color: #ea4335;
 }
 
 a:hover.linkwhatsapp {
-  color: #25d366;
+    color: #25d366;
 }
 
 a:hover.linktelegram {
-  color: #0088cc;
+    color: #0088cc;
+}
+
+a:hover.linksignal {
+    color: #4C83F2;
 }
 
 a:hover.linktwitter {
-  color: #1da1f2;
+    color: #1da1f2;
 }
 
 a:hover.linkinstagram {
-  color: #c13584;
+    color: #c13584;
 }
 
 a:hover.linkreddit {
-  color: #ff4500;
+    color: #ff4500;
 }
 
 a:hover.linkyoutube {
-  color: #ff0000;
+    color: #ff0000;
 }
 
 a:hover.linkgithub {
-  color: #6e5494;
+    color: #6e5494;
 }
 
 a:hover.linklinkedin {
-  color: #0a66c2;
+    color: #0a66c2;
 }
+
 p {
-  font-family: Roboto, Helvetica, Arial;
-  margin: 0px auto;
-  position: relative;
-  width: 100%;
-  text-align: left;
+    font-family: Roboto, Helvetica, Arial;
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    text-align: left;
 }
 
 ul li {
-  list-style-type: ">  ";
-  margin: 0px auto;
-  position: relative;
-  width: 59%;
+    list-style-type: ">  ";
+    margin: 0px auto;
+    position: relative;
+    width: 59%;
 }
 
 ul.none li.none {
-  list-style-type: "";
-  margin: 0px auto;
-  position: relative;
-  width: 90%;
+    list-style-type: "";
+    margin: 0px auto;
+    position: relative;
+    width: 90%;
 }
 
 .header {
-  text-align: center;
-  font-size: x-large;
-  font-weight: 200;
-  margin-top: 25px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 200;
+    margin-top: 25px;
 }
 
 .subheader {
-  text-align: center;
-  font-size: 142%;
-  font-weight: 200;
-  font-family: CoreDeco, Helvetica, Arial;
+    text-align: center;
+    font-size: 142%;
+    font-weight: 200;
+    font-family: CoreDeco, Helvetica, Arial;
 }
 
 .body {
-  text-align: left;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  font-family: Helvetica, Arial, sans-serif;
-  max-width: 80%;
-  position: relative;
-  margin: 15px auto;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 80%;
+    position: relative;
+    margin: 15px auto;
 }
 
 .bodybackground {
-  background-color: white;
-  margin-bottom: 50px;
-  padding-bottom: 15px;
+    background-color: white;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .links {
-  text-align: center;
-  font-size: x-large;
-  font-weight: 200;
-  border-top: solid 1px #373635;
-  border-bottom: solid 1px #373635;
-  max-width: 80%;
-  margin: 0px auto;
-  position: relative;
-  ;
-  padding-top: .3em;
-  padding-bottom: .3em;
-  margin-top: 0px
+    text-align: center;
+    font-size: x-large;
+    font-weight: 200;
+    border-top: solid 1px #373635;
+    border-bottom: solid 1px #373635;
+    max-width: 80%;
+    margin: 0px auto;
+    position: relative;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    margin-top: 0px
 }
 
 .linksg {
-  text-align: center;
-  font-size: x-large;
-  font-weight: 200;
-  border-top: solid 1px #373635;
-  border-bottom: solid 1px #373635;
-  max-width: 80%;
-  margin: 0px auto;
-  position: relative;
-  ;
-  padding-top: .3em;
-  padding-bottom: .3em;
-  margin-top: 0px
+    text-align: center;
+    font-size: x-large;
+    font-weight: 200;
+    border-top: solid 1px #373635;
+    border-bottom: solid 1px #373635;
+    max-width: 80%;
+    margin: 0px auto;
+    position: relative;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    margin-top: 0px
 }
 
 .footer {
-  text-align: center;
-  font-size: 110%;
-  margin-top: 12px;
-  max-width: 80%;
-  margin: 0px auto;
-  position: relative;
+    text-align: center;
+    font-size: 110%;
+    margin-top: 12px;
+    max-width: 80%;
+    margin: 0px auto;
+    position: relative;
+    font-family: CoreDeco, Helvetica, Arial;
 }
 
 h1 {
-  font-weight: 200;
-  font-size: 221%;
-  margin-bottom: 0px;
-  padding-top: 15px;
-  margin: 0px auto;
-  position: relative;
-  text-align: left;
-  font-family: RobotoMonoThin, Helvetica, Arial;
-}
-
-h2 {
-  font-weight: 200;
-  margin-top: 7px;
-}
-
-.nadpis {
-  text-align: left;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 180%;
-  color: #373635;
-  font-weight: 200;
-  position: relative;
-}
-
-.nadpis_davierm {
-  text-align: left;
-  font-family: CoreDeco, Helvetica, Arial, sans-serif;
-  font-size: x-large;
-  color: #373635;
-  font-weight: 200;
-  position: relative;
-}
-
-p.popis {
-  text-align: left;
-  font-size: 121%;
-  margin: 0px auto;
-  position: relative;
-  width: 88.3%;
-  margin-top: 7px;
-  line-height: 150%;
-}
-
-p.infocena {
-  font-style: italic;
-  font-size: small;
-  text-align: left;
-}
-
-.info {
-  text-align: center;
-  font-size: x-large;
-  color: #373635;
-  max-width: 80%;
-  margin: 10px auto;
-  position: relative;
-  font-family: CoreDeco, Helvetica, Arial;
-}
-
-.infosmall {
-  text-align: center;
-  font-size: large;
-  color: #373635;
-  max-width: 80%;
-  margin: 10px auto;
-  position: relative;
-  font-family: Helvetica, Arial;
-}
-
-.cena {
-  margin-left: 2%;
-}
-
-.links .icon {
-  display: none;
-}
-
-.mobile_center {
-  float: left;
-    margin: 3px 21px 21px 0px;
-    display: block;
-    width: 142px;
-    height: 142px;
-    margin-left: auto;
-    
-    background-size: contain;
-    background-image: url(data/davierm_rich.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-object{
-  pointer-events: none;
-}
-
-@media screen and (max-width: 1042px) {
-  .links a {
-    display: block;
-  }
-
-  .links a.icon {
-    float: right;
-    display: block;
-  }
-
-  .links {
-    border-top: none;
-    border-bottom: none;
-  }
-}
-
-
-@media screen and (max-width: 1042px) {
-  .mobile_center {
-    float: none;
-    margin: 3px 12px 3px 0px;
-    display: block;
-    width: 142px;
-    height: 142px;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: contain;
-    background-image: url(data/davierm_rich.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-  }  
-  h1 {
     font-weight: 200;
     font-size: 221%;
     margin-bottom: 0px;
     padding-top: 15px;
     margin: 0px auto;
     position: relative;
-    text-align: center;
+    text-align: left;
     font-family: RobotoMonoThin, Helvetica, Arial;
-  }
+}
 
-  .links.responsive {
+h2 {
+    font-weight: 200;
+    margin-top: 7px;
+}
+
+h3 {
+    font-family: RobotoMonoThin, Helvetica, Arial;
+}
+
+.nadpis {
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 180%;
+    color: #373635;
+    font-weight: 200;
     position: relative;
-    border-top: solid 1px #373635;
-    border-bottom: solid 1px #373635;
-  }
+}
 
-  .links.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+.nadpis_davierm {
+    text-align: left;
+    font-family: CoreDeco, Helvetica, Arial, sans-serif;
+    font-size: x-large;
+    color: #373635;
+    font-weight: 200;
+    position: relative;
+}
 
-  }
+p.popis {
+    text-align: left;
+    font-size: 121%;
+    margin: 0px auto;
+    position: relative;
+    width: 87.7%;
+    margin-top: 7px;
+    line-height: 150%;
+}
 
-  .links.responsive a {
-    float: none;
-    display: block;
+p.text {
+    text-align: left;
+    font-size: 121%;
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    margin-top: 7px;
+    line-height: 150%;
+}
+
+p.meta_data {
+    text-align: right;
+    font-size: 100%;
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    margin-top: 7px;
+    line-height: 150%;
+}
+
+p.infocena {
+    font-style: italic;
+    font-size: small;
+    text-align: left;
+}
+
+.info {
     text-align: center;
-  }
+    font-size: x-large;
+    color: #373635;
+    max-width: 80%;
+    margin: 10px auto;
+    position: relative;
+    font-family: CoreDeco, Helvetica, Arial;
+}
+
+.infosmall {
+    text-align: center;
+    font-size: large;
+    color: #373635;
+    max-width: 80%;
+    margin: 10px auto;
+    position: relative;
+    font-family: Helvetica, Arial;
+}
+
+.cena {
+    margin-left: 2%;
+}
+
+.links .icon {
+    display: none;
+}
+
+.mobile_image {
+    float: left;
+    margin: 3px 21px 21px 0px;
+    display: block;
+    margin-left: auto;
+}
+
+.mobile_center {
+    float: left;
+    margin: 3px 21px 1px 0px;
+    display: block;
+    width: 242px;
+    height: 242px;
+    margin-left: auto;    
+    background-size: contain;
+    background-image: url(data/davierm_rich.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ext {
+    background: url(data/svg/ext_link.svg);
+    width: 10px;
+    height: 10px;
+    background-size: contain;
+    vertical-align: baseline;
+    margin-left: 10px;
+}
+
+object{
+    pointer-events: none;
+}
+
+/* STYLOVÁNÍ NA MOBILNÍ OBRAZOVCE */
+@media screen and (max-width: 1042px) {
+    .links a {
+        display: block;
+    }
+
+    .links a.icon {
+        float: right;
+        display: block;
+    }
+
+    .links {
+        border-top: none;
+        border-bottom: none;
+    }
+}
+
+
+@media screen and (max-width: 1042px) {
+    .mobile_center {
+        float: none;
+        margin: 3px 12px 21px 0px;
+        display: block;
+        width: 342px;
+        height: 342px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+        background-image: url(data/davierm_rich.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }  
+
+    .mobile_image {
+        float: none;
+        margin: 3px 12px 3px 0px;
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+    }  
+
+    p.meta_data {
+        text-align: center;
+        font-size: 100%;
+        margin: 0px auto;
+        position: relative;
+        width: 88.3%;
+        margin-top: 7px;
+        line-height: 150%;
+    }
+
+    h1 {
+        font-weight: 200;
+        font-size: 221%;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        margin: 0px auto;
+        position: relative;
+        text-align: center;
+        font-family: RobotoMonoThin, Helvetica, Arial;
+    }
+
+    .links.responsive {
+        position: relative;
+        border-top: solid 1px #373635;
+        border-bottom: solid 1px #373635;
+    }
+
+    .links.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+    .links.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
 }
