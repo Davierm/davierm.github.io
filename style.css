@@ -361,7 +361,7 @@ p.infocena {
 
 .infosmall {
     text-align: center;
-    font-size: large;
+    font-size: small;
     color: #373635;
     max-width: 80%;
     margin: 10px auto;
@@ -433,8 +433,8 @@ object{
         float: none;
         margin: 3px 12px 21px 0px;
         display: block;
-        width: 342px;
-        height: 342px;
+        width: 200px;
+        height: 200px;
         margin-left: auto;
         margin-right: auto;
         background-size: contain;
