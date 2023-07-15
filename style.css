@@ -411,22 +411,6 @@ object{
 }
 
 /* STYLOVÁNÍ NA MOBILNÍ OBRAZOVCE */
-@media screen and (max-width: 1042px) {
-    .links a {
-        display: block;
-    }
-
-    .links a.icon {
-        float: right;
-        display: block;
-    }
-
-    .links {
-        border-top: none;
-        border-bottom: none;
-    }
-}
-
 @media only screen and (min-width : 200px) and (max-device-width : 520px){
     .mobile_center {
         float: none;
@@ -441,8 +425,31 @@ object{
         background-repeat: no-repeat;
         background-position: center center;
     }  
-}
 
+    p.meta_data {
+        text-align: center;
+        font-size: 100%;
+        margin: 0px auto;
+        position: relative;
+        width: 88.3%;
+        margin-top: 7px;
+        line-height: 150%;
+    }
+
+    .mobile_image {
+        float: none;
+        margin: 3px 12px 3px 0px;
+        display: block;
+        width: 20%;
+        height: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+    }  
+
+}
+/* STYLOVÁNÍ NA TABLETY A PC */
 @media only screen and (min-width : 520px) and (max-width: 1042px) {
     .mobile_center {
         float: none;
@@ -508,5 +515,19 @@ object{
         float: none;
         display: block;
         text-align: center;
+    }
+
+    .links a {
+        display: block;
+    }
+
+    .links a.icon {
+        float: right;
+        display: block;
+    }
+
+    .links {
+        border-top: none;
+        border-bottom: none;
     }
 }
