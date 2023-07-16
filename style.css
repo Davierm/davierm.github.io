@@ -448,6 +448,36 @@ object{
         height: 50%;
     }  
 
+    .nadpis {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 180%;
+        color: #373635;
+        font-weight: 200;
+        position: relative;
+    }
+
+    h1 {
+        font-weight: 200;
+        font-size: 221%;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        margin: 0px auto;
+        position: relative;
+        text-align: center;
+        font-family: RobotoMonoThin, Helvetica, Arial;
+    }
+
+    p.popis {
+        text-align: center;
+        font-size: 121%;
+        margin: 0px auto;
+        position: relative;
+        width: 87.7%;
+        margin-top: 7px;
+        line-height: 150%;
+    }
+
 }
 /* STYLOVÁNÍ NA TABLETY A PC */
 @media only screen and (min-width : 520px) and (max-width: 1042px) {
