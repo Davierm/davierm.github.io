@@ -323,7 +323,7 @@ p.popis {
     line-height: 150%;
 }
 
-p.text {
+.text {
     text-align: left;
     font-size: 121%;
     margin: 0px auto;
