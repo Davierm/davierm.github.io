@@ -185,6 +185,10 @@ a:hover.linklinkedin {
     color: #0a66c2;
 }
 
+a:hover.linkdiscord {
+    color: #5865f2;
+}
+
 p {
     font-family: Roboto, Helvetica, Arial;
     margin: 0px auto;
@@ -198,7 +202,9 @@ ul li {
     list-style-type: ">  ";
     margin: 0px auto;
     position: relative;
-    width: 59%;
+    width: 80%;
+    font-size: 121%;
+    margin-bottom: 1em;
 }
 
 ul.none li.none {
@@ -399,12 +405,12 @@ p.infocena {
 }
 
 .ext {
-    background: url(data/svg/ext_link.svg);
-    width: 10px;
-    height: 10px;
-    background-size: contain;
     vertical-align: baseline;
     margin-left: 10px;
+}
+
+.article_img{
+    max-width: 100%;
 }
 
 object{
