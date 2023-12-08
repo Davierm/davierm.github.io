@@ -185,8 +185,8 @@ a:hover.linklinkedin {
     color: #0a66c2;
 }
 
-a:hover.linkdiscord {
-    color: #5865f2;
+a:hover.linkrcs {
+    color: #0d1bb1;
 }
 
 a:hover.linkx {
@@ -205,6 +205,18 @@ a:hover.linkpinterest {
     text-align: center;
     float: left;
     width: 33.33%;
+}
+
+.colX {
+    text-align: center;
+    float: left;
+    width: 90%;
+}
+
+.colX_blank {
+    text-align: center;
+    float: left;
+    width: 5%;
 }
 
 .row:after {
@@ -467,6 +479,18 @@ object{
 
     .column {
         width: 100%;
+    }
+
+    .colX {
+        text-align: center;
+        float: left;
+        width: 100%;
+    }
+    
+    .colX_blank {
+        text-align: center;
+        float: left;
+        width: 0%;
     }
 
     p.meta_data {
