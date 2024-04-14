@@ -345,6 +345,16 @@ h3 {
     color: #373635;
 }
 
+.context {
+    text-align: center;
+    font-size: 105%;
+    font-weight: 100;
+    color: #373635;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    max-width: 90%;
+    margin: 10px auto;
+}
+
 .nadpis {
     text-align: left;
     font-family: Helvetica, Arial, sans-serif;
@@ -460,6 +470,7 @@ p.infocena {
 object{
     pointer-events: none;
 }
+
 
 /* STYLOVÁNÍ NA MOBILNÍ OBRAZOVCE */
 @media only screen and (min-width : 200px) and (max-device-width : 520px){
