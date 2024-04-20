@@ -201,6 +201,10 @@ a:hover.linkpinterest {
     color: #e60023;
 }
 
+a:hover.linksubstack {
+    color: #ee7835;
+}
+
 .column {
     text-align: center;
     float: left;
