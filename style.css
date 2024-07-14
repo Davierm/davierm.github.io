@@ -475,6 +475,12 @@ object{
     pointer-events: none;
 }
 
+object.greyscale{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
 
 /* STYLOVÁNÍ NA MOBILNÍ OBRAZOVCE */
 @media only screen and (min-width : 200px) and (max-device-width : 520px){
